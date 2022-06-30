@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman',
+  
+  
+}
+
+code {
+  font-family: 'Times New Roman',
+  Times,
+  serif
+    monospace;
+}
+
+tbody tr:hover {
+  background: rgb(234, 234, 234);
+}
+
+tbody tr {
+  transition: 0.5s ease;
+}
