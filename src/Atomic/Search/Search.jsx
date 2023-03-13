@@ -11,10 +11,10 @@ export default function Search(props) {
       style={{
         marginLeft: "171px",
         maxWidth: "256px",
-        // background: "#fff",
+
         borderRadius: "4px",
       }}
-      // color="secondary"
+     
       type="text"
       InputProps={{
         startAdornment: (

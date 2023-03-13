@@ -91,9 +91,7 @@ export default function MiniDrawer({
   const theme = useTheme();
   const [showDialog, setShowDialog] = React.useState(false);
 
-  // const handleClickOpen = () => {
-  //   setShowDialog(true);
-  // };
+ 
 
   const handleClose = () => {
     setShowDialog(false);
@@ -174,11 +172,7 @@ export default function MiniDrawer({
           </List>
           <Divider />
         </Drawer>
-        {/* <main className={classes.content}>
-          <div className={classes.toolbar} />
-
-          <Products clickHandler={handleClickOpen}></Products>
-        </main> */}
+   
       </div>
     </>
   );
